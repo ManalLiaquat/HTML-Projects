@@ -1,0 +1,307 @@
+* p{
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+body{
+    width: 100%;
+}
+#top-bar{
+    padding: 5px;
+    margin: px;
+    background-color: rgba(217, 255, 0, 0.137);
+}
+#tb-left{
+    text-align: left;
+}
+#tb-right{
+    float: right;
+    text-align: right;  
+}
+.logo{
+    width: 213px;
+    height: 58px;
+}
+.donate{
+    margin-top: 10px;
+    width:698px;
+    height: 40px;   
+}
+#icon-bar{
+    background-color: #8DC63F;
+}
+#navbar{
+    border-radius: 0px;
+    border-color: rgb(240, 240, 240);
+    border-width:1px 0px 1px 0px;
+    text-transform: uppercase;
+}
+.navbar-toggle{
+    border: 1px solid #316DC3;
+} 
+ul.nav li > ul.dropdown-menu:hover{
+    background-color: rgb(167, 204, 255);
+}
+ul.nav li:hover > ul.dropdown-menu{
+    display: block;
+}
+
+#navbar-toggle{
+    float:left;
+    font-weight: bolder;
+    color: #8DC63F;
+    border:none;
+}
+.navbar-brand{
+    cursor: default;
+}
+.news-slider{
+    height: 37px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+.ns-inner{
+    height: 37px;
+
+}
+.ns-body{
+    margin: 2px;
+}
+.ns-label{
+    margin-left: 2px;
+    padding: 0 8px 0 20px;
+}
+#ns-btn{
+    float: right;
+    margin: 0px 30px 0px 0px;
+    padding: 0px 20px;
+}
+#ns-btn:hover{
+    background-color: rgb(230, 230, 230);
+}
+.slider img{
+    width:100%;
+    height: 445px;    
+    box-shadow: 0px 3px 5px 2px black;
+}
+.btn1{
+    float: left;
+}
+.btn2{
+    float: right;
+}
+#btn{
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+#aside{
+    padding: 10px;
+}
+#subscription{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.596);
+    font-size: 18px;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+#submit{
+    float: right;
+    display: block;
+    margin: 5px;
+    background-color: #8DC63F;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 5px 1px #316DC3;
+}
+h3{
+    margin:0px 0px 30px 0px;  
+    font-weight: bold;
+    text-transform: uppercase;
+}
+label{
+    font-size: 18px;
+}
+.col-xs-12 img{
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.col-xs-12 a{
+    color: black;
+    font-weight: bolder;
+}
+.col-xs-12 a:hover{
+    text-decoration: none;
+    color: #8DC63F;
+    font-weight:bolder;
+}
+h2.ijtema{
+    padding:0; 
+}
+.footer{
+    background-color: #222222;
+    color: #e7e7e7;
+}
+div h2{
+    padding: 50px 0 0 50px;
+    text-transform: uppercase;  
+
+}
+.ft-col li{
+    list-style: none;
+    padding: 10px;
+    font-size: 17px; 
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+#fbpage{
+    
+    min-width: 10px;
+    max-width: 100%;
+
+}
+#social{
+    padding:0 0 20px 0;
+}
+#social h2{
+    padding: 10px;
+    text-align: center;
+}
+.copyrights{
+    background-color: #1A1A1A;
+    padding: 10px;
+    color: rgb(136, 136, 136);
+    text-align: center;
+}
+#cp-left p{
+    display: inline;
+    text-align: right;
+    color: gainsboro;
+}
+abbr{
+    padding: 
+}
+#ft-email{
+    color: #e7e7e7;
+}
+#manal{
+    color: gainsboro;
+}
+.ft-col li > a{
+    color: #e7e7e7;
+}
+.fa-angle-up{
+    position: static;
+    padding: 5px 20px;
+    border-radius: 100px;
+    color: #316DC3;
+    font-size: 200%;
+    background-color: #8DC63F;
+}
+.sideimg{
+    min-width: 50px;
+    max-width: 350px;
+    min-height: 50px; 
+    max-height: 350px;
+}
+
+div.col-md-9{
+    border-right: thin solid rgba(0, 0, 0, 0.158); 
+    padding: 0px 10px;
+}
+div.content{
+    margin: 10px auto;
+    padding: 20px;
+    border :thin solid rgba(0, 0, 0, 0.158); 
+}
+div#livestrm a{
+    display: block;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+table#donate-epay td{
+    padding: 10px;
+    border: 1px solid rgba(187, 187, 187, 0.555);
+    width: 600px;
+}
+table#books-table td{
+    padding: 10px;
+    border: 1px solid rgba(187, 187, 187, 0.555);
+    width: 600px;
+}
+
+div img{
+    min-width: 100px;
+    max-width: 100%;
+    margin-bottom: 100px;
+}
+
+div#masstrpr h4, div#masstrpr p{
+    margin: 20px auto;
+}
+table#MDpatient td{
+    padding: 5px 20px;
+}
+
+div#SSposts{
+   padding: 10px;
+    max-width: 60%;
+}
+div#SSposts a{
+    color: white;
+    text-decoration: none;
+}
+div#SSimgs{
+    padding: 10px;
+    max-width: 300px;
+}
+div.row button.btn{
+    margin: 0 0 0 90%;
+}
+div.SSrows{
+    border-bottom: thin solid black;
+}
+td #booksbtn{
+    margin: 0;
+}
+img.artimg{
+    border: thick ridge #316DC3;
+    border-radius: 0px 10px 0 10px;
+}
+.col-md-2 img{
+    padding: 0px 10px 5px 0px;
+    margin: 5px;
+}
+.col-md-2{
+    border-radius: 0;
+    padding: 5px;
+}
+.even{
+    background-color: #316DC3;
+   
+}
+.odd{
+    background-color: #8DC63F;
+    
+}
+div.col-md-2 h4{
+    color: white;
+}
+#cp{
+    border-bottom:thick ridge red;
+    display: inline-block;
+}
+
+
+
+
+.bgbody{
+    height: 1100px;
+    background-color: #8DC63F
+}
