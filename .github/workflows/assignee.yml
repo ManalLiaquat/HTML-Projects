@@ -42,7 +42,7 @@ jobs:
           browser: chrome
           record: true
 
-      - name: Assign PR when failed
+      - name: Assign PR when fails
         if: ${{ failure() }}
         uses: actions-ecosystem/action-add-assignees@v1
         with:
